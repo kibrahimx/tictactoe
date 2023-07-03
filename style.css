@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+header {
+    margin: 30px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 22pt;
+}
+
+.turn {
+    display: flex;
+    justify-content: center;
+    font-size: 18pt;
+    opacity: 0;
+}
+
+h2 span {
+    color: blue;
+}
+
+#game-content {
+    display: flex;
+    justify-content: center;
+}
+
+#gameboard {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    border: 3px solid black;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.tile {
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button {
+    font-family: 'Open Sans', sans-serif;
+    width: 100px;
+}
